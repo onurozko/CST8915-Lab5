@@ -50,15 +50,13 @@ We then uploaded our images to Docker Hub and switched to a Compose configuratio
 
 ## A Few Notes
 
-I've used Docker in my previous workplaces, but mostly for local development with configurations that were already set up. My usual workflow was running commands like `docker compose build` and `docker compose up`, without having to deal much with how the images were created or published.
+I've used Docker quite a bit in my previous workplaces, mainly for local development and running multi-service applications. Most projects already had their Docker configurations in place, so my day-to-day work usually involved commands like `docker compose build` and `docker compose up`.
 
-Because of that, I never really had to think about what was happening behind those commands.
+What was relatively new to me in this lab was working with the image distribution side of Docker, especially tagging images, publishing them to Docker Hub, and then pulling those images to run the application independently of the source code.
 
-This lab gave me an opportunity to work with those parts in more detail. Writing Dockerfiles for different services, working with a multi-stage build for the Vue frontend, and uploading images to Docker Hub were all useful experiences.
+I also found the multi-stage build for the Vue frontend interesting. It's a useful way to keep the final image smaller by separating the build environment from the environment actually serving the application.
 
-The multi-stage build was probably the most interesting part for me, since it demonstrated how the environment used to build an application doesn't necessarily have to be included in the final image.
-
-Overall, I found the lab useful because it helped me better understand parts of Docker that I had previously taken for granted.
+Overall, the lab was a good opportunity to explore parts of the Docker workflow that I hadn't needed to work with much professionally, while building on my existing experience.
 
 ## Demo
 
