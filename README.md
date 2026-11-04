@@ -60,4 +60,4 @@ Overall, the lab was a good opportunity to explore parts of the Docker workflow 
 
 ## Demo
 
-[YouTube]()
+[YouTube](https://youtu.be/2Aje1DtvwUM)
